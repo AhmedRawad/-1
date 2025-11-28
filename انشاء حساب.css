@@ -1,0 +1,47 @@
+.Reserve {
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    padding: 45px;
+    height: auto 60%;
+    max-width: 350px;
+    margin: 50px auto;
+    box-shadow: 0 0 15px rgb(0, 0, 0);
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    color: white;
+}
+
+form input{
+  
+  text-align: right;
+  padding: 15px;
+  margin-bottom: 25px;
+  border: none; 
+  border-radius: 6px;
+  background-color: rgba(255, 255, 255, 0.4);
+  color: black;
+    width: 96%;
+
+
+}
+button {
+    background: linear-gradient(90deg, #0078b8, #00b8ff);
+  color: white;
+  border: none;
+  padding: 14px;
+  font-size: 1.1em;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%;
+  font-weight:bold ;
+}
+
+.Reserve button:hover{
+   background:  #e58900;
+}

@@ -1,0 +1,92 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  background: url("x.jpg") no-repeat center center / cover;
+  height: 520px;
+}
+
+.background-overlay {
+  background-size: cover;
+  background-position: center;
+  height: 61vh;
+  position: relative;
+}
+
+form button {
+  background: linear-gradient(90deg, #0078b8, #00b8ff);
+  color: white;
+  border: none;
+  padding: 14px;
+  font-size: 1.1em;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%;
+}
+
+form button:hover {
+  background: linear-gradient(90deg, #ff8c01, #ffbe6f);
+  transform: scale(1.05);
+}
+
+form button :active {
+  transform: scale(0.97);
+}
+
+.login-box {
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 30px;
+  max-width: 350px;
+  margin: 80px auto;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+.login-box h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.login-box input {
+  text-align: right;
+  width: 94%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 6px;
+  background-color: rgba(255, 255, 255, 0.4);
+  color: black;
+}
+
+.login-box button {
+  width: 100%;
+  padding: 10px;
+  background-color: #ff9800;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.login-box button:hover {
+  background-color: #e58900;
+}
+
+.options {
+  height: 5vh;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.option-link {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 14px;
+}
